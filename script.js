@@ -8,6 +8,12 @@ function increment(){
     document.getElementById("count").innerText=c
 }
 
+function decrement(){
+    c=c-1
+    document.getElementById("count").innerText=c
+}
+
+
 function save(){
     let savestr=c + " "
     document.getElementById("save").textContent+=savestr
