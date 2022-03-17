@@ -1,6 +1,4 @@
 
-
-
 let c=0
 
 function increment(){
@@ -21,4 +19,10 @@ function save(){
     c=0
     document.getElementById("count").innerText=0
 }
+
+
+
+
+
+
 
